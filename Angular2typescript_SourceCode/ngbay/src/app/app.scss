@@ -1,0 +1,44 @@
+/**
+ * This file basically the original material-design-lite styles with minor color
+ * adjustments to fit the application's theme.
+ */
+
+// Import color definitions so we can reuse colors from the default Material
+// Design palette.
+@import '~material-design-lite/src/color-definitions';
+
+// Adjust default MDL colors for custom theme.
+$color-primary-dark: $palette-grey-900;
+$color-primary: $color-white;
+$color-accent: $palette-cyan-A200;
+
+@import '~material-design-lite/src/variables';
+
+$layout-header-text-color: $text-color-primary;
+$layout-header-tab-text-color: $tab-text-color;
+
+// Import the rest of MDL that will use our custom theme colors.
+@import '~material-design-lite/src/material-design-lite';
+
+
+/**
+ * Custom styles.
+ */
+
+$secondary-background-color: #f3f3f3;
+
+html, body {
+  @include typo-preferred-font();
+}
+
+.mdl-layout__header {
+  border-bottom: 1px solid $default-item-divider-color;
+}
+
+.mdl-layout__content {
+  background-color: $secondary-background-color;
+}
+
+.ngbay-app__tab {
+  font-size: 13px;
+}

@@ -1,0 +1,33 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <header class="mdl-layout__header mdl-layout__header--seamed">
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <span class="mdl-layout-title">ngBay</span>
+      <div class="mdl-layout-spacer"></div>
+      <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
+        <i class="material-icons">more_vert</i>
+      </button>
+    </div>
+    <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a class="ngbay-app__tab mdl-layout__tab is-active">Feature</a>
+      <a class="ngbay-app__tab mdl-layout__tab">LATEST</a>
+      <a class="ngbay-app__tab mdl-layout__tab">FASHION</a>
+      <a class="ngbay-app__tab mdl-layout__tab">FURNITURE</a>
+      <a class="ngbay-app__tab mdl-layout__tab">BEAUTY</a>
+      <a class="ngbay-app__tab mdl-layout__tab">FOOD</a>
+      <a class="ngbay-app__tab mdl-layout__tab">TRAVEL</a>
+    </div>
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Online Auction</span>
+  </div>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

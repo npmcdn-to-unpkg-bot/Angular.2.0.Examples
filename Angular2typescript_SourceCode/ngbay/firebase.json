@@ -1,0 +1,11 @@
+{
+  "firebase": "ngbay",
+  "public": "dist",
+  "ignore": [
+    "**/*.gz"
+  ],
+  "rewrites": [{
+    "source": "**",
+    "destination": "/index.html"
+  }]
+}
