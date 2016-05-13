@@ -9,8 +9,8 @@ import {Video} from './video'
 })
 export class VideoListComponent {
     private selectVideo = new EventEmitter();
-     
-    onSelect(vid: Video) { 
+
+    onSelect(vid: Video) {
          this.selectVideo.next(vid);
     }
 }

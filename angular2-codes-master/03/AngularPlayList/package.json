@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "live-server --port=12345"
+    "start": "live-server --port=12346"
   },
   "keywords": [
     "angular",
