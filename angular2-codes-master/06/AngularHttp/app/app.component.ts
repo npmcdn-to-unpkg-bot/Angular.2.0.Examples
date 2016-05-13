@@ -7,7 +7,7 @@ import {UserService} from './service'
     providers: [UserService],
     template: `
     <ul>
-        <li *ngFor="#u of users">
+        <li *ngFor="let u of users">
             {{u.id}} - {{u.name}}
         </li>
     </ul>
